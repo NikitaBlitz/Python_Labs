@@ -24,3 +24,10 @@ for job in job_elements:
 print(jobs)
 jobs= map(len,jobs)
 print(list(jobs))
+
+# 3 на базе данных из датасета
+iris = datasets.load_iris()
+listt = list(iris.target_names)
+print(listt)
+x = map(len, listt)
+print(list(x))

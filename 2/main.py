@@ -7,8 +7,7 @@ def load_to_json(filename):
 
 
 def write_to_json(data, filename):
-        json.dump(data, open(filename, 'w'), indent=4)
-
+        json.dump(data, open(filename, 'w'), indent=4) # indent - отступ, для форматирования json
 
 data = {"Persons": []}
 
